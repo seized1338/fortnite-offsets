@@ -1,10 +1,10 @@
-#define GWORLD = 0xEF0F440
-#define FNAME = 0xEF89F80
-#define RESULT_DA = 17
-#define GObject = 0xED79528
+#define GWORLD = 0x1078A7D8
+#define FNAME = 0x10800400
+#define RESULT_DA = 0x10757720
+#define GObject = 0x105F09D0
 
 //Offsets
-	uintptr_t UWorld = 0xEF0F440;
+	uintptr_t UWorld = 0x1078A7D8;
 	uintptr_t ObjectID = 0x18;
 
 	//UWorld
@@ -42,7 +42,7 @@
 
 
 	uintptr_t TeamIndex = 0x10B0; //AFortPlayerStateAthena
-	uintptr_t ReviveFromDBNOTime = 0x44c0; //AFortPlayerStateAthena
+	uintptr_t ReviveFromDBNOTime = 0x4480; //AFortPlayerStateAthena
 	uintptr_t LocalActorPos = 0x128;
 	uintptr_t CurrentWeapon = 0x8f8;
 	uintptr_t BoneArray = 0x5f0;
