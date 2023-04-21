@@ -1,10 +1,10 @@
-#define GWORLD = 0x1078A7D8
+#define GWORLD = 0x1078a7d8
 #define FNAME = 0x10800400
 #define RESULT_DA = 0x10757720
 #define GObject = 0x105F09D0
 
 //Offsets
-	uintptr_t UWorld = 0x1078A7D8;
+	uintptr_t UWorld = 0x1078a7d8;
 	uintptr_t ObjectID = 0x18;
 
 	//UWorld
