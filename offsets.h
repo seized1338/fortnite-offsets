@@ -1,0 +1,28 @@
+//Offsets
+enum offsets : ptrdiff_t 
+{
+    Uworld = 0xEA84A78, 
+    ViewPoint = 0xE9AD420,
+    OwningGameInstance = 0x1b8,
+    PlayerCameraManager = 0x340, 
+    local_players = 0x38, 
+    AcknowledgedPawn = 0x330, 
+    PlayerState = 0x2A8, 
+    PlayerController = 0x30,
+    PlayerArray = 0x02a0, 
+    RootComponent = 0x190, 
+    RelativeLocation = 0x128, 
+    AActor = 0x98, 
+    CurrentWeapon = 0x948,
+    WeaponData = 0x438, 
+    mesh = 0x310, 
+    levels = 0x170, 
+    Tier = 0x73,
+    bonearray = 0x600,
+    IsCached = 0x648,
+    TeamID = 0x10C8, 
+    GameState = 0x158,
+    revivefromdbnotime = 0x4698,
+    last_sumbit_time = 0x360,
+    last_render_time_on_screen = 0x368,
+}
